@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% block body%}
+    <h1> This is the home page </h1>
+
+    {% for item in all_items %}
+    <p> {{item}}</p>
+    {% endfor %}
+
+{%endblock body%}

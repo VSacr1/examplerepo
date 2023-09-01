@@ -1,0 +1,9 @@
+{% block body %}
+
+<form action="" method="POST">
+    {{ form.hidden_tag() }}
+    <p> Task: {{ form.name }}</p>
+    {{ form.submit()}}
+</form>
+
+{%endblock body%}
