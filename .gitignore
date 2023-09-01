@@ -1,2 +1,2 @@
 application/__pycache__/*
-secrets.txt
+env/
