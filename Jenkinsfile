@@ -5,6 +5,7 @@ pipeline {
         stage('Install') {
             steps {
               sh 'ls'
+                sh 'python3 -m pip install --upgrade pip'
               sh'python3 -m pip install requirement.txt'  
             }
         }
