@@ -6,8 +6,7 @@ pipeline {
             steps {
               sh 'ls'
               sh 'python3 -m pip install --upgrade pip'
-              sh 'python3 -m pip install flask'
-              sh 'python3 -m pip install flask-sqlalchemy'
+              sh 'python3 -m pip install -r requirement.txt'
             }
         }
         stage('build') {
