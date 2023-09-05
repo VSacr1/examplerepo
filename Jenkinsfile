@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Install') {
             steps {
+              sh 'ls'
               sh'python3 -m pip install requirement.txt'  
             }
         }
