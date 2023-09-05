@@ -5,7 +5,7 @@ from application.form import TaskForm
 
 # Route that points to a url. 
 # HTTP REQUESTS GET, POST, PUT, DELETE 
-#
+# Example of change
 @app.route("/")
 def hello_world(): 
     # Code exists inside of the functions 
