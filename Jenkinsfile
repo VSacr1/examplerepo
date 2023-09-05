@@ -6,13 +6,13 @@ pipeline {
             steps {
               sh 'ls'
                 sh 'python3 -m pip install --upgrade pip'
-              sh'python3 -m pip install requirement.txt'  
+              sh 'python3 -m pip install requirement.txt'  
             }
         }
         stage('build') {
             steps {
               sh'python3 create.py'
-              sh 'python3 app.py3'
+              sh 'python3 app.py'
               }
         }
     }
