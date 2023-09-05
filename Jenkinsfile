@@ -12,7 +12,6 @@ pipeline {
               sh'python3 create.py'
               sh 'python3 app.py3'
               }
-            }
         }
     }
 }
