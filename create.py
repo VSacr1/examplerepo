@@ -1,6 +1,7 @@
 from application import db, app
 from application.models import Tasks
 
+#Making a change
 with app.app_context():
     db.drop_all()
     db.create_all()
