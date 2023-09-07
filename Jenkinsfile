@@ -5,8 +5,8 @@ pipeline {
 
         stage('build') {
             steps {
-              sh'docker build -t flask-app .'
-              sh'docker run -d --network my-network -p 5000:5000 --name flask-app flask-app'
+              sh'docker-compose down'
+              sh'docker-compose up -d'
               }
         }
     }
