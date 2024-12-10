@@ -1,4 +1,2 @@
 # examplerepo
-This is for a demo on GitHub
-This is now on the develop branch 
-Example of changes
+This is a demo for github and also where I stored documents for a flask project. 
